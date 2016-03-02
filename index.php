@@ -13,17 +13,6 @@ and open the template in the editor.
         <?php
        
         include "database.php";
-        if (isset($_POST['knap'])) {
-            if ($_POST['knap'] == 'rediger')
-                rediger_vare(
-                        $_POST['faktura'], $_POST['gammeltnavn'], $_POST['navn'], $_POST['antal'], $_POST['pris']);
-            if ($_POST['knap'] == 'slet')
-                slet_vare(
-                        $_POST['faktura'], $_POST['gammeltnavn']);
-            if ($_POST['knap'] == 'insert')
-                insert_vare(
-                        $_POST['faktura'], $_POST['navn'], $_POST['antal'], $_POST['pris']);
-        }
         $link = mysql_connect('localhost', 'root', '');
         if (!$link) {
             die('Could not connect: ' . mysql_error());
