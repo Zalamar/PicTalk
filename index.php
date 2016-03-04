@@ -9,7 +9,7 @@ and open the template in the editor.
         <title>Sign-In</title>
     </head>
         <body id='body-color'>
-            <h1><CENTER>Incest for Children</CENTER></h1>
+            <h1><CENTER>PicTalk</CENTER></h1>
         <?php
        
         include "database.php";
