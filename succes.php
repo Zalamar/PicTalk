@@ -14,29 +14,34 @@ function login($email, $password) {
             echo($_SESSION['password']);
         }
         else {
-            redirect(3);
+            redirect("index.php?err");
         }
     }
     else {
-        redirect(3);
+        redirect("index.php?err");
     }
 }
 
-function redirect($error) {
-    header("Location: http://localhost/Pictalk/index.php?err=$error");
+function signup($name, $email, $password, $telephone) {
+    $sql = "INSERT INTO profile (name, email, password, telephone) VALUES ('name', 'email', 'password', 'telephone')";
+    $result = mysql_query($sql);
+    
+    if ($result) {
+        
+    }
+}
+
+function redirect($location) {
+    header("Location: http://localhost/Pictalk/$location");
     die();
 }
 
 if($_POST["action"] == "sign in") {
-    if(!$_POST["email"]) {
-        redirect(1);
-    }
-    elseif(!$_POST["password"]) {
-        redirect(2);
-    }
-    else {
-        login($_POST["email"], $_POST["password"]);
-    }
+    login($_POST["email"], $_POST["password"]);
+    
+}
+elseif($_POST["action"] == "sign up") {
+    signup();
 }
 
 ?>
