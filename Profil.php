@@ -1,11 +1,12 @@
 <html>
     <head>
+         <title>Profile</title>
     <div id="header">
         <h1 style="font-family:serif;"<BIG><U>PicTalk</U></BIG></h1>
     </div>
 </head>
 <body
-<CENTER><div id='Sign-In'> <fieldset style='width:98%'> 
+<Center><div id='Sign-In'> <fieldset style='width:98%'> 
             <table width=100%>  
                 <DIV>
                     <TD>
@@ -16,5 +17,8 @@
                     </TD>
                 </DIV>
             </table>
-    </div></CENTER>
+    </div></Center>
 <br>
+<div>
+<Center><img src="Unknown-17.png" style="width:304px;height:228px;"></Center>
+</div>
