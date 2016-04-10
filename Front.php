@@ -1,12 +1,22 @@
 <html>
     <head>
-         <title>Homepage</title>
+        <title>Homepage</title>
     <div id="header">
         <h1 style="font-family:serif;"<BIG><U>PicTalk</U></BIG></h1>
     </div>
 </head>
-<body
-<CENTER><div id='Sign-In'> <fieldset style='width:99,5%'> 
+<body>      
+    <style>
+        table {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 20px;
+        }
+    </style>
+
+<CENTER><div id='Sign-In'><fieldset style='width:99,5%'> 
             <table width=100%>  
                 <DIV>
                     <TD>
@@ -17,34 +27,36 @@
                     </TD>
                 </DIV>
             </table>
-    </div></CENTER>
-<br>
-<table width="40%">
+        </CENTER></div>
+    <br>
+    <table>
+        <div><fieldset style='width:35%'>
+                <p>herp de derp</p>
+                <p>herp de derp</p>
+                <p>herp de derp</p>
+                <p>herp de derp</p>
+                <p>herp de derp</p>
+                <p>herp de derp</p>
+                <p>herp de derp</p>
+                <p>herp de derp</p>
+                <p>herp de derp</p>
+                <p>herp de derp</p>
+                <p>herp de derp</p>
+                <p>herp de derp</p>
+                <p>herp de derp</p>
+                </table>
+                <table>
+                    <div><h1 align="center"</h1><fieldset style='width:35%'>
 
-       <div><fieldset style='width:35%'>
-            <p>herp de derp</p>
-            <p>herp de derp</p>
-            <p>herp de derp</p>
-            <p>herp de derp</p>
-            <p>herp de derp</p>
-            <p>herp de derp</p>
-            <p>herp de derp</p>
-            <p>herp de derp</p>
-            <p>herp de derp</p>
-            <p>herp de derp</p>
-            <p>herp de derp</p>
-            <p>herp de derp</p>
-            <p>herp de derp</p>
-            </table>
-<table width="40%">
-       <div><fieldset style='width:35%'>
-            <p>herp de derp</p>
-            <p>herp de derp</p>
-            <p>herp de derp</p>
-            <p>herp de derp</p>
-            <p>herp de derp</p>
-            </table>
-            </body>
-            </html>
+                            <table>
+                                <div><fieldset style='width:35%'>
+                                        <p>herp de derp</p>
+                                        <p>herp de derp</p>
+                                        <p>herp de derp</p>
+                                        <p>herp de derp</p>
+                                        <p>herp de derp</p>
+                                        </table>
+                                        </body>
+                                        </html>
 
 
