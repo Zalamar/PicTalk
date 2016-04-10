@@ -36,23 +36,6 @@
             <p>herp de derp</p>
             <p>herp de derp</p>
             </table>
-<br>
-<br>           
-<br>
-<br>
-<br>
-<br>
-<br>           
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>           
-<br>
-<br>
-<br>
 <table width="40%">
        <div><fieldset style='width:35%'>
             <p>herp de derp</p>
