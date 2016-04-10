@@ -10,10 +10,10 @@
 
             <DIV>
                 <TD>
-                <td><CENTER><button><a href="Homepage.html">about</a></button></CENTER></td>
-                <td><CENTER><button><a href="SHOP cocain.html">shop</a></button></button></CENTER></td>
-                <td><CENTER><button><a href="Nearest Dealer Yo.html">nearest dealer</a></button></button></CENTER></td>
-                <td><CENTER><button><a href="HELP ME NIGGA.html">Help</a></button></button></CENTER></td>
+                <td><CENTER><button><a>ABOUT</a></button></CENTER></td>
+                <td><CENTER><button><a>FOLLOWING</a></button></button></CENTER></td>
+                <td><CENTER><button><a>FOLLOWERS</a></button></button></CENTER></td>
+                <td><CENTER><button><a>SETTINGS</a></button></button></CENTER></td>
                 </TD>
             </DIV>
             </tr>
