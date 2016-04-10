@@ -6,7 +6,7 @@ and open the template in the editor.
 -->
 <html>
     <head>  
-        <title>Sign-ap</title>
+        <title>Sign-ass</title>
     </head>
     <body id='body-color'>
         <h1><CENTER>PicTalk</CENTER></h1>
