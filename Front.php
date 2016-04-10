@@ -1,10 +1,10 @@
 <html>
 <head>
+
+<h1><BIG><U>PicTalk</U></BIG></h1>  
 </head>
-<h1><font color=WHITE #FFFFFF</font><CENTER><BIG><U>Cocaine Online Today</U></BIG></CENTER></h1>
-<h10><CENTER>A Webshop by Nigga & Hustler Enterprise</CENTER>   
-<BODY BACKGROUND="PSyke.css.jpg">
-<legend
+    <body
+<CENTER><div id='Sign-In'> <fieldset style='width:98%'>
     <table> 
         <table width=100%>  
 
@@ -18,7 +18,7 @@
             </DIV>
             </tr>
         </table>
-</legend>
+        </div></center>
         </body>
         </html>
         
