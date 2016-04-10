@@ -30,18 +30,19 @@
             Firsname Lastnameson
     </Center>
 </form>
-<style>
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-th, td {
-    padding: 20px;
-}
-</style>
+
 <table style="width:33%" border='1'>
     <tr>
         <td>
+            <style>
+    table {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    th, td {
+        padding: 20px;
+    }
+</style>
             <?php
             $age = array("Peter" => "35");
             echo "Age - " . $age['Peter'];
@@ -56,17 +57,15 @@ th, td {
             ?>
         </td> 
     </tr>
-     <tr>
+    <tr>
         <td>
             <?php
             $gender = array("Peter" => "Male", "Jannis" => "Female");
             echo "Gender - " . $gender['Peter'];
             ?>
-        </td> 
-    </tr>
-</table>
-<br>
-<br>
+        </td>
+    <br>
+    <br>
 
-</body>
-</html>
+    </body>
+    </html>
