@@ -17,7 +17,7 @@ if (isset($_COOKIE["login_token"])) {
                 <legend>LOG-IN HERE</legend> 
                 <form method='POST' action='succes.php'>
                     <div class="form-group">
-                        <label for="inputusername3" class="col-sm-2 control-label">Username</label>
+                        <label for="inputusername3" class="col-sm-2 control-label">E-mail</label>
                         <div class="col-sm-10">
                             <input type="email" class="form-control" id="inputusername3" name="email" placeholder="username">
                         </div>
