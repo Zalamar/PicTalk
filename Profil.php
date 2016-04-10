@@ -30,6 +30,41 @@
             Firsname Lastnameson
     </Center>
 </form>
+<style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 20px;
+}
+</style>
+<table style="width:33%" border='1'>
+    <tr>
+        <td>
+            <?php
+            $age = array("Peter" => "35");
+            echo "Age - " . $age['Peter'];
+            ?>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <?php
+            $nummer = array("Peter" => "12 34 56 78");
+            echo "Phone number - " . $nummer['Peter'];
+            ?>
+        </td> 
+    </tr>
+     <tr>
+        <td>
+            <?php
+            $gender = array("Peter" => "Male", "Jannis" => "Female");
+            echo "Gender - " . $gender['Peter'];
+            ?>
+        </td> 
+    </tr>
+</table>
 <br>
 <br>
 
