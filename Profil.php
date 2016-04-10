@@ -1,12 +1,12 @@
 <html>
     <head>
-         <title>Profile</title>
+        <title>Profile</title>
     <div id="header">
         <h1 style="font-family:serif;"<BIG><U>PicTalk</U></BIG></h1>
     </div>
 </head>
 <body
-<Center><div id='Sign-In'> <fieldset style='width:98%'> 
+<Center><div id='Sign-In'> <fieldset style='width:99,5%'> 
             <table width=100%>  
                 <DIV>
                     <TD>
@@ -19,6 +19,19 @@
             </table>
     </div></Center>
 <br>
+<br>
 <div>
-<Center><img src="Unknown-17.png" style="width:304px;height:228px;"></Center>
+    <Center><img src="Unknown-17.png" style="width:408px;height:356px;"border="2"></Center>
 </div>
+<form>
+    <Center>
+        <fieldset style='width:27%'>
+            <legend></legend>
+            Firsname Lastnameson
+    </Center>
+</form>
+<br>
+<br>
+
+</body>
+</html>
