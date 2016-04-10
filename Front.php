@@ -1,11 +1,12 @@
 <html>
     <head>
+         <title>Homepage</title>
     <div id="header">
         <h1 style="font-family:serif;"<BIG><U>PicTalk</U></BIG></h1>
     </div>
 </head>
 <body
-<CENTER><div id='Sign-In'> <fieldset style='width:98%'> 
+<CENTER><div id='Sign-In'> <fieldset style='width:99,5%'> 
             <table width=100%>  
                 <DIV>
                     <TD>
