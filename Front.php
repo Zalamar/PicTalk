@@ -4,11 +4,10 @@
 <h1><font color=WHITE #FFFFFF</font><CENTER><BIG><U>Cocaine Online Today</U></BIG></CENTER></h1>
 <h10><CENTER>A Webshop by Nigga & Hustler Enterprise</CENTER>   
 <BODY BACKGROUND="PSyke.css.jpg">
-    <HR SIZE=6 NOSHADE>
+<legend
     <table> 
         <table width=100%>  
 
-            <tr> 
             <DIV>
                 <TD>
                 <td><CENTER><button><a href="Homepage.html">about</a></button></CENTER></td>
@@ -19,8 +18,7 @@
             </DIV>
             </tr>
         </table>
-        <HR SIZE=6 NOSHADE>
-        <FONT SIZE=4> 
+</legend>
         </body>
         </html>
         
