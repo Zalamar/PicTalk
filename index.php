@@ -40,8 +40,17 @@ if (isset($_COOKIE["login_token"])) {
                     <div class="form-group">
                         <div class="col-sm-offset-2 col-sm-10">
                             <button type="submit" class="btn btn-default" name="action" value="sign in">Sign in</button>
-                            <button type="submit" class="btn btn-default" name="action" value="sign up">sign up</button>
+                            <button type="submit" class="btn btn-default" name="action" value="sign up">Sign up</button>
                         </div>
+                    </div>
+                    <div>
+                        <?php
+                            if(isset($_GET["err"])) {
+                                ?>
+                                    <div>Error in username or password.</div>
+                                <?php
+                            }
+                        ?>
                     </div>
                 </form></CENTER>
                 </body>
