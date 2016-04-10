@@ -19,7 +19,7 @@
             </table>
     </div></CENTER>
 <br>
-<table width="40%"
+<table width="40%">
 
        <div><fieldset style='width:35%'>
             <p>herp de derp</p>
@@ -53,7 +53,7 @@
 <br>
 <br>
 <br>
-<table width="40%"
+<table width="40%">
        <div><fieldset style='width:35%'>
             <p>herp de derp</p>
             <p>herp de derp</p>
