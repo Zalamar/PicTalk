@@ -2,7 +2,7 @@
     <head>
         <title>Profile</title>
     <div id="header">
-        <h1 style="font-family:serif;"<BIG><U>PicTalk</U></BIG></h1>
+    <img src="Pictalklogo.png" style="width:200px;height:150px;"> 
     </div>
 </head>
 <body
