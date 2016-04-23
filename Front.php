@@ -20,7 +20,7 @@
             <table width=100%>  
                 <DIV>
                     <TD>
-                    <td><CENTER><button><a>ABOUT</a></button></CENTER></td>
+                    <td><CENTER><button><a href="About.php.html">ABOUT</a></button></CENTER></td>
                     <td><CENTER><button><a>FOLLOWING</a></button></button></CENTER></td>
                     <td><CENTER><button><a>FOLLOWERS</a></button></button></CENTER></td>
                     <td><CENTER><button><a>SETTINGS</a></button></button></CENTER></td>
