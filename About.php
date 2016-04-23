@@ -4,6 +4,9 @@
     <div id="header">
         <img href="Front.php" src="Pictalklogo.png" style="width:200px;height:150px;"> 
     </div>
+    <?php
+echo "Today is " . date("l-d-m-y") . "<br>";
+?>
 </head>
 <body>      
     <style>
