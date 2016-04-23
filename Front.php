@@ -3,7 +3,9 @@
     <head>
         <title>Homepage</title>
     <div id="header">
+        <a href="Front.php">
         <img src="Pictalklogo.png" style="width:200px;height:150px;"> 
+        </a>
     </div>
 </head>
 <?php
@@ -19,7 +21,6 @@ echo "Today is " . date("l-d-m-y") . "<br>";
             padding: 20px;
         }
     </style>
-
 <CENTER><div id='Sign-In'><fieldset style='width:99,5%'> 
             <table width=100%>  
                 <DIV>
@@ -27,12 +28,13 @@ echo "Today is " . date("l-d-m-y") . "<br>";
                     <td><CENTER><button><a href="About.php">ABOUT</a></button></CENTER></td>
                     <td><CENTER><button><a>FOLLOWING</a></button></button></CENTER></td>
                     <td><CENTER><button><a href="Profil.php">Profile</a></button></button></CENTER></td>
-                    <td><CENTER><button><a>SETTINGS</a></button></button></CENTER></td>
+                    <td><CENTER><button><a href="Settings.php">SETTINGS</a></button></button></CENTER></td>
                     </TD>
                 </DIV>
             </table>
         </CENTER></div>
     <br>
+     <h1 style="text-align:center;">WELCOME</h1>
         <table>
             <style>
                 div.scroll {
