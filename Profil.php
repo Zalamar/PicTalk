@@ -4,6 +4,9 @@
     <div id="header">
     <img src="Pictalklogo.png" style="width:200px;height:150px;"> 
     </div>
+    <?php
+echo "Today is " . date("l-d-m-y") . "<br>";
+?>
 </head>
 <body
 <Center><div id='Sign-In'> <fieldset style='width:99,5%'> 
@@ -33,7 +36,6 @@
 
 <table style="width:33%" border='1'>
     <tr>
-        <td>
             <style>
     table {
         border: 1px solid black;
@@ -43,11 +45,17 @@
         padding: 20px;
     }
 </style>
+<td>
             <?php
             $age = array("Peter" => "35");
             echo "Age - " . $age['Peter'];
             ?>
         </td>
+        <td>
+            <?php
+            $follower = array ("Peter"=> "10");
+            echo "Follower count:" . $follwer["Peter"];
+                    ?>
     </tr>
     <tr>
         <td>
