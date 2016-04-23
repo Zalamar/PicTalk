@@ -5,6 +5,9 @@
     <img src="Pictalklogo.png" style="width:200px;height:150px;"> 
     </div>
 </head>
+<?php
+echo "Today is " . date("l-d-m-y") . "<br>";
+?>
 <body>      
     <style>
         table {
