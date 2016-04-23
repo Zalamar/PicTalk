@@ -2,7 +2,9 @@
     <head>
         <title>Profile</title>
     <div id="header">
-        <img src="Pictalklogo.png" style="width:200px;height:150px;"> 
+        <a href="Front.php">
+            <img src="Pictalklogo.png" style="width:200px;height:150px;"> 
+        </a>    
     </div>
     <?php
     echo "Today is " . date("l-d-m-y") . "<br>";
@@ -16,7 +18,7 @@
                     <td><CENTER><button><a href="About.php">ABOUT</a></button></CENTER></td>
                     <td><CENTER><button><a>FOLLOWING</a></button></button></CENTER></td>
                     <td><CENTER><button><a href="Profil.php">Profile</a></button></button></CENTER></td>
-                    <td><CENTER><button><a>SETTINGS</a></button></button></CENTER></td>
+                    <td><CENTER><button><a href="Settings.php">SETTINGS</a></button></button></CENTER></td>
                     </TD>
                 </DIV>
             </table>
