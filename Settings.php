@@ -1,4 +1,5 @@
 <html>
+        <body style="background-color:darkorange;">
     <head>
         <title>Homepage</title>
     <div id="header">
@@ -21,7 +22,7 @@
         }
     </style>
 
-<CENTER><div id='Sign-In'><fieldset style='width:99,5%'> 
+<CENTER><div style="background-color:whitesmoke;"id='Sign-In'><fieldset style='width:99,5%'> 
             <table width=100%>  
                 <DIV>
                     <TD>
