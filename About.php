@@ -1,5 +1,6 @@
 <html>
-        <body style="background-color:darkorange;">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <body style="background-color:darkorange;">
     <head>
         <title>Homepage</title>
     <div id="header">
@@ -37,29 +38,33 @@
     <style>
         div.scroll {
             background-color: #white;
-            width: 1000px;
+            width: 99%;
             height: 1000px;
             alignment-adjust: "center";
             overflow: scroll;
         }
     </style>
-    <div class="scroll">
+    <div style="color:white;"class="scroll">
         <p>The webpage PicTalk is a school project
             <br>Made by 3 high school students
             <br>Named - Thor Bjorn gabe, Tobias Rydberg and Victor Mtsimbe Norrild.
-            <br>
-            <br>It was made for our finals in the a class
-            <br>called "Information Technologi".
-            <br>It was required that it held 
-            <br>a image file, a login system, a database, tables, list, logos/self made vidoes og other things.
-            <br>
-            <br>The project is to delivered on the 24th of April.
-            <br>On our schools platform. 
-            <br>
-            <br>Further information awaits, in the meanwhile, heres some ed sheeran.
-            <br>
-            <br>
-            </p>              
+        <div style="float: right;"><IMG SRC="itguy1.jpg"><br>Victor Mtsimbe Norrild</div>       
+        <br>It was made for our finals in the a class
+        <br>called "Information Technologi".
+        <br>It was required that it held 
+        <br>a image file, a login system, a database, tables, list, logos/self made vidoes og other things.
+        <br>
+        <br>The project is to delivered on the 24th of April.
+        <br>On our schools platform. 
+        <br>
+        <br>Further information awaits, in the meanwhile, heres some ed sheeran.
+        <br><br><br><br><br><br><br>
+        <div style="float: right;"><IMG SRC="itguy2.jpg"><br>Tobias Rydberg</div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+        <div style="float: right;"><IMG SRC="itguy3.jpg"><br>Thor Bjørn Gabe</div>
+
+        </p>              
         </table>
         </body>
         </html>
