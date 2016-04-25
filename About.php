@@ -40,7 +40,7 @@
             background-color: #white;
             width: 99%;
             height: 1000px;
-            alignment
+            alignment: left;
             overflow: scroll;
         }
     </style>
