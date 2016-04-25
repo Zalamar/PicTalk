@@ -28,7 +28,7 @@ if ($data) {
         <title>Profile</title>
         <link rel="stylesheet" type="text/css" href="mystyle.css">
     </head>
-    <body>
+    <body style="background-color:darkorange;">
     <div id="header">
         <a href="Front.php">
             <img src="Pictalklogo.png" style="width:200px;height:150px;"> 
@@ -37,7 +37,7 @@ if ($data) {
 <?php
 echo "Today is " . date("l-d-m-y") . "<br>";
 ?>
-<Center><div id='Sign-In'> <fieldset style='width:99,5%'> 
+<Center><div style="background-color:whitesmoke;"id='Sign-In'> <fieldset style='width:99,5%'>
             <table width=100%>  
                 <DIV>
                     <TD>
@@ -56,7 +56,7 @@ echo "Today is " . date("l-d-m-y") . "<br>";
 </div>
 <form>
     <Center>
-        <fieldset style='width:27%'>
+        <fieldset style="background-color:whitesmoke;"style='width:27%'>
             <legend></legend>
             <?php echo $name ?>
     </Center>
@@ -68,11 +68,57 @@ echo "Today is " . date("l-d-m-y") . "<br>";
         table {
             border: 1px solid black;
             border-collapse: collapse;
+            background-color: whitesmoke;
         }
         th, td {
             padding: 20px;
         }
     </style>
+    +</table>
+<table>
+    <div class="scroll">
+        <style>
+            div.scroll {
+                border: solid 1px black;
+                float:center;
+                background-color: white;
+                overflow: scroll;
+                height: 250px;
+                width: 500px;
+            }
+        </style>
+        <form action="succes.php">
+            <br>
+            <input type="file" name="pic" id="pic">
+            <br>Discription:
+            <input type="text" name="discription" value="insert discription">
+            <br><br><br><br><br><br><br><br><br><br>
+            <input type="submit" value="Submit">
+        </form> 
+</table>
+<table>
+    <div class="scroll">
+        <style>
+           div.scroll {
+                border: solid 1px black;
+                float:right;
+                background-color: white;
+                overflow: scroll;
+                height: 250px;
+                width: 500px;
+                word-spacing: 30px;
+
+            }
+        </style>
+        <form action="succes.php">
+            <br>
+            <input type="file" name="pic" id="pic">
+            <br>Discription:
+            <input type="text" name="discription" value="insert discription">
+            <br><br><br><br><br><br><br><br><br><br>
+            <input type="submit" value="Submit">
+        </form> 
+    </div>
     <td>
         Age - 
 <?php
@@ -80,7 +126,6 @@ if(isset($age)) { echo $age; }
 else { echo "Private"; }
 ?>
     </td>
-</tr>
 <tr>
     <td>
         Phone number - 
@@ -112,6 +157,6 @@ echo "Follower count:" . $nummer["Peter"];
 </tr>
 <br>
 <br>
-
+</table>
 </body>
 </html>

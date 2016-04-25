@@ -22,18 +22,18 @@ echo "Today is " . date("l-d-m-y") . "<br>";
             padding: 20px;
         }
     </style>
-<CENTER><div style="background-color:whitesmoke;"id='Sign-In'><fieldset style='width:99,5%'> 
+<div style="background-color:whitesmoke;"id='Sign-In'><fieldset style='width:99,5%'> 
             <table width=100%>  
-                <DIV>
+                <div>
                     <TD>
                     <td><CENTER><button><a href="About.php">ABOUT</a></button></CENTER></td>
                     <td><CENTER><button><a>FOLLOWING</a></button></button></CENTER></td>
                     <td><CENTER><button><a href="Profil.php">PROFILE</a></button></button></CENTER></td>
                     <td><CENTER><button><a href="Settings.php">SETTINGS</a></button></button></CENTER></td>
                     </TD>
-                </DIV>
+                </div>
             </table>
-        </CENTER></div>
+        </div>
     <br>
     <h1 style="text-align:center;">WELCOME</h1>
     <table>

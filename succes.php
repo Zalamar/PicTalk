@@ -50,5 +50,3 @@ else {
     redirect("index.php");
 }
 ?>
-
-<!DOCTYPE html>
