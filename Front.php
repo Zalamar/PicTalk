@@ -7,7 +7,7 @@
     <body style="background-color:lightgrey;">
     <div id="header">
         <a href="Front.php">
-            <img src="Pictalklogo.png" style="width:200px;height:150px;"> 
+            <img src="Pictalklogo.png" style="width:175px;height:150px;"> 
         </a>
     </div>
 <?php
