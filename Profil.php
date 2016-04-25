@@ -44,7 +44,7 @@
             border: 1px solid black;
             border-collapse: collapse;
             background-color: whitesmoke;
-           
+
 
         }
         th, td {
@@ -72,6 +72,7 @@
             <br><br><br><br><br><br><br><br><br><br>
             <input type="submit" value="Submit">
         </form> 
+</table>
 <table>
     <div class="scroll">
         <style>
@@ -82,7 +83,7 @@
                 overflow: scroll;
                 height: 250px;
                 width: 500px;
-                    word-spacing: 30px;
+                word-spacing: 30px;
 
             }
         </style>
@@ -94,39 +95,39 @@
             <br><br><br><br><br><br><br><br><br><br>
             <input type="submit" value="Submit">
         </form> 
-        <td>
-            <?php
-            $age = array("Peter" => "35");
-            echo "Age - " . $age['Peter'];
-            ?>
-        </td>
-        </tr>
-        <tr>
-            <td>
-                <?php
-                $nummer = array("Peter" => "12 34 56 78");
-                echo "Phone number - " . $nummer['Peter'];
-                ?>
-            </td> 
-        </tr>
-        <tr>
-            <td>
-                <?php
-                $gender = array("Peter" => "Male", "Jannis" => "Female");
-                echo "Gender - " . $gender['Peter'];
-                ?>
-            </td>
-        <tr>
-            <td>
+    </div>
+    <td>
+        <?php
+        $age = array("Peter" => "35");
+        echo "Age - " . $age['Peter'];
+        ?>
+    </td>
+<tr>
+    <td>
+        <?php
+        $nummer = array("Peter" => "12 34 56 78");
+        echo "Phone number - " . $nummer['Peter'];
+        ?>
+    </td> 
+</tr>
+<tr>
+    <td>
+        <?php
+        $gender = array("Peter" => "Male", "Jannis" => "Female");
+        echo "Gender - " . $gender['Peter'];
+        ?>
+    </td>
+<tr>
+    <td>
 
-                <?php
-                $nummer = array("Peter" => "10");
-                echo "Follower count:" . $nummer["Peter"];
-                ?>
-            </td>
-        </tr>
-        <br>
-        <br>
-        </table>
-        </body>
-        </html>
+        <?php
+        $nummer = array("Peter" => "10");
+        echo "Follower count:" . $nummer["Peter"];
+        ?>
+    </td>
+</tr>
+<br>
+<br>
+</table>
+</body>
+</html>

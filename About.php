@@ -45,11 +45,11 @@
         }
     </style>
     <div style="color:white;"class="scroll">
-        <p>The webpage PicTalk is a school project
-            <br>Made by 3 high school students
-            <br>Named - Thor Bjorn gabe, Tobias Rydberg and Victor Mtsimbe Norrild.
+        <p>The website PicTalk is a school project
+            <br>Made by 3 highschool students
+            <br>Named - Thor Bjørn gabe, Tobias Rydberg and Victor Mtsimbe Norrild.
         <div style="float: right;"><IMG SRC="itguy1.jpg"><br>Victor Mtsimbe Norrild</div>       
-        <br>It was made for our finals in the a class
+        <br>It was made for our finals in a class
         <br>called "Information Technologi".
         <br>It was required that it held 
         <br>a image file, a login system, a database, tables, list, logos/self made vidoes og other things.
