@@ -1,0 +1,13 @@
+div.post {
+    border: solid 1px black;
+    background-color: white;
+    text-align: center;
+    position: fixed;
+    left: 48%;
+    top: 70%;
+    z-index: 100;
+    height: 250px;
+    margin-top: -200px;
+    width: 700px;
+    margin-left: -300px;
+}
