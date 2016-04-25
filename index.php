@@ -1,12 +1,15 @@
+<?php
+if (isset($_COOKIE["login_token"])) {
+    header("Location: http://localhost/Front.php");
+    die();
+}
+?>
+
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+
 <html>
     <head>  
-        <title>Sign-ap</title>
+        <title>Sign-In</title>
     </head>
     <body id='body-color'>
         <h1><CENTER>PicTalk</CENTER></h1>
@@ -16,29 +19,29 @@ and open the template in the editor.
                     <div class="form-group">
                         <label for="inputusername3" class="col-sm-2 control-label">Username</label>
                         <div class="col-sm-10">
-                            <input type="username" class="form-control" id="inputusername3" placeholder="username">
+                            <input type="username" class="form-control" id="inputusername3" name="username" placeholder="username">
                         </div>
                     </div>
                     <div class="form-group">
                         <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
                         <div class="col-sm-10">
-                            <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="col-sm-offset-2 col-sm-10">
-                            <div class="checkbox">
-                                <label>
-                                    <input type="checkbox"> Remember me
-                                </label>
-                            </div>
+                            <input type="password" class="form-control" id="inputPassword3" name="password" placeholder="Password">
                         </div>
                     </div>
                     <div class="form-group">
                         <div class="col-sm-offset-2 col-sm-10">
                             <button type="submit" class="btn btn-default" name="action" value="sign in">Sign in</button>
-                            <button type="submit" class="btn btn-default" name="action" value="sign up">sign up</button>
+                            <button type="submit" class="btn btn-default" name="action" value="sign up">Sign up</button>
                         </div>
+                    </div>
+                    <div>
+                        <?php
+                            if(isset($_GET["err"])) {
+                                ?>
+                                    <div>Error in username or password.</div>
+                                <?php
+                            }
+                        ?>
                     </div>
                 </form></CENTER>
                 </body>

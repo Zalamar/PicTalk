@@ -10,7 +10,7 @@
     echo "Today is " . date("l-d-m-y") . "<br>";
     ?>
 </head>
-<body>  
+<body style="background-color:darkorange;"> 
     <style>
         table {
             border: 1px solid black;
@@ -21,7 +21,7 @@
         }
     </style>
 
-<CENTER><div id='Sign-In'><fieldset style='width:99,5%'> 
+<CENTER><div style="background-color:whitesmoke;"id='Sign-In'><fieldset style='width:99,5%'> 
             <table width=100%>  
                 <DIV>
                     <TD>
