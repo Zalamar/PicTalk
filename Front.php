@@ -22,18 +22,19 @@ echo "Today is " . date("l-d-m-y") . "<br>";
             padding: 20px;
         }
     </style>
-<CENTER><div style="background-color:whitesmoke;"id='Sign-In'><fieldset style='width:99,5%'> 
+
+    <div style="background-color:whitesmoke;"id='Sign-In'><fieldset style='width:99,5%'> 
             <table width=100%>  
-                <DIV>
+                <div>
                     <TD>
                     <td><CENTER><button><a href="About.php">ABOUT</a></button></CENTER></td>
                     <td><CENTER><button><a>FOLLOWING</a></button></button></CENTER></td>
                     <td><CENTER><button><a href="Profil.php">PROFILE</a></button></button></CENTER></td>
                     <td><CENTER><button><a href="Settings.php">SETTINGS</a></button></button></CENTER></td>
                     </TD>
-                </DIV>
+                </div>
             </table>
-        </CENTER></div>
+        </div>
     <br>
     <h1 style="text-align:center;">WELCOME</h1>
     <table>
@@ -41,7 +42,7 @@ echo "Today is " . date("l-d-m-y") . "<br>";
             <style>
                 div.scroll {
                     border: solid 1px black;
-                    position: fixed;
+                    position: fixed
                     left: 48%;
                     top: 70%;
                     background-color: white;
@@ -53,18 +54,37 @@ echo "Today is " . date("l-d-m-y") . "<br>";
                     margin-left: -300px;
                 }
             </style>
-            <form action="succes.php">
-                <br>
-                <input type="file" name="pic" id="pic">
-                <br>Discription:
-                <input type="text" name="discription" value="insert discription">
-                <br><br><br><br><br><br><br><br><br><br>
-                <input type="submit" value="Submit">
-            </form> 
-                <br>
-                <br>
-                </body>
-                </html>
+            <div>
+                <style>
+                div {
+                border: solid 1px black;
+                position: fixed;
+                left: 50%;
+                top: 80%;
+                background-color: white;
+                z-index: 100;
+                overflow: scroll;
+                height: 100px;
+                margin-top: -200px;
+                width: 100px;
+                margin-left: -300px;
+                }
+                </style>
+            </div>
+        </div>
+    </table>
+    <form action="succes.php">
+        <br>
+        <input type="file" name="pic" id="pic">
+        <br>Discription:
+        <input type="text" name="discription" value="insert discription">
+        <br><br><br><br><br><br><br><br><br><br>
+        <input type="submit" value="Submit">
+    </form> 
+    <br>
+    <br>
+    </body>
+    </html>
 
 
 
