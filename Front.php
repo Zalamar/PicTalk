@@ -4,7 +4,7 @@
         <title>Homepage </title>
          <link rel="stylesheet" type="text/css" href="style.css">
     </head>
-    <body style="background-color:darkorange;">
+    <body style="background-color:lightgrey;">
     <div id="header">
         <a href="Front.php">
             <img src="Pictalklogo.png" style="width:200px;height:150px;"> 

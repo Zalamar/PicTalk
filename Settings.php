@@ -10,7 +10,7 @@
     echo "Today is " . date("l-d-m-y") . "<br>";
     ?>
 </head>
-<body style="background-color:darkorange;"> 
+<body style="background-color:lightgray;"> 
     <style>
         table {
             border: 1px solid black;
