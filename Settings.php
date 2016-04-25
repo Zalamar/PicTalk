@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Homepage</title>
+        <title>Settings</title>
     <div id="header">
         <a href="Front.php">
             <img src="Pictalklogo.png" style="width:175px;height:150px;"> 
