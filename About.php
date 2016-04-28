@@ -59,10 +59,10 @@
         <br>
         <br>Further information awaits, in the meanwhile, heres some ed sheeran.
         <br><br><br><br><br><br><br>
-        <div style="float: right;"><IMG SRC="itguy2.jpg"><br>Tobias Rydberg</div>
+        <div style="float: right;"><IMG SRC="itguy3.jpg"><br>Tobias Rydberg</div>
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-        <div style="float: right;"><IMG SRC="itguy3.jpg"><br>Thor Bjørn Gabe</div>
+        <div style="float: right;"><IMG SRC="itguy2.jpg"><br>Thor Bjørn Gabe</div>
     </div>
 
             </body>
