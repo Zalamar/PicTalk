@@ -1,3 +1,7 @@
+<?php
+session_start();
+$username = $_SESSION['username'];
+?>
 <html>
     <head>
         <title>Settings</title>
@@ -27,7 +31,9 @@
                     <TD>
                     <td><CENTER><button><a href="About.php">ABOUT</a></button></CENTER></td>
                     <td><CENTER><button><a>FOLLOWING</a></button></button></CENTER></td>
-                    <td><CENTER><button><a href="Profil.php">PROFILE</a></button></button></CENTER></td>
+                    <?php
+                    echo "<td><CENTER><button><a href='Profil.php?username=$username'>PROFILE</a></button></button></CENTER></td>";
+                    ?>
                 <td><CENTER><button><a href="Settings.php">SETTINGS</a></button></button></CENTER></td>
                     </TD>
                 </DIV>
