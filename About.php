@@ -30,30 +30,28 @@ $username = $_SESSION['username'];
 <CENTER><div style="background-color:whitesmoke;"id='Sign-In'><fieldset style='width:99,5%'>
             <table width=100%>  
                 <div>
-                    <TD>
+                        <?php
+                        echo "<td><CENTER><button><a href='Profil.php?username=$username'>PROFILE</a></button></button></CENTER></td>";
+                        ?>
+                    <td><CENTER><button><a href="Following.php">FOLLOWING</a></button></button></CENTER></td>
                     <td><CENTER><button><a href="About.php">ABOUT</a></button></CENTER></td>
-                    <td><CENTER><button><a>FOLLOWING</a></button></button></CENTER></td>
-                    <?php
-                    echo "<td><CENTER><button><a href='Profil.php?username=$username'>PROFILE</a></button></button></CENTER></td>";
-                    ?>
                     <td><CENTER><button><a href="Settings.php">SETTINGS</a></button></button></CENTER></td>
-                    </TD>
                 </div>
             </table>
-            </div>
-        <style>
-        div.scroll {
+    </div>
+    <style>
+        div.section {
             background-color: #white;
             width: 99%;
             height: 1000px;
-            alignment: left;
+            alignment: center;
             overflow: scroll;
         }
     </style>
-    <div style="color:black;"class="scroll">
+    <div style="color:black;"class="section">
         The website PicTalk is a school project
-            <br>Made by 3 highschool students
-            <br>Named - Thor Bjørn gabe, Tobias Rydberg and Victor Mtsimbe Norrild.
+        <br>Made by 3 highschool students
+        <br>Named - Thor Bjørn gabe, Tobias Rydberg and Victor Mtsimbe Norrild.
         <div style="float: right;"><IMG SRC="itguy1.jpg"><br>Victor Mtsimbe Norrild</div>       
         <br>It was made for our finals in a class
         <br>called "Information Technologi".
@@ -71,5 +69,5 @@ $username = $_SESSION['username'];
         <div style="float: right;"><IMG SRC="itguy2.jpg"><br>Thor Bjørn Gabe</div>
     </div>
 
-            </body>
-            </html>
+</body>
+</html>

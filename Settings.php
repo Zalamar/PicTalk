@@ -28,18 +28,16 @@ $username = $_SESSION['username'];
 <CENTER><div style="background-color:whitesmoke;"id='Sign-In'><fieldset style='width:99,5%'> 
             <table width=100%>  
                 <DIV>
-                    <TD>
+                        <?php
+                        echo "<td><CENTER><button><a href='Profil.php?username=$username'>PROFILE</a></button></button></CENTER></td>";
+                        ?>
+                    <td><CENTER><button><a href="Following.php">FOLLOWING</a></button></button></CENTER></td>
                     <td><CENTER><button><a href="About.php">ABOUT</a></button></CENTER></td>
-                    <td><CENTER><button><a>FOLLOWING</a></button></button></CENTER></td>
-                    <?php
-                    echo "<td><CENTER><button><a href='Profil.php?username=$username'>PROFILE</a></button></button></CENTER></td>";
-                    ?>
-                <td><CENTER><button><a href="Settings.php">SETTINGS</a></button></button></CENTER></td>
-                    </TD>
+                    <td><CENTER><button><a href="Settings.php">SETTINGS</a></button></button></CENTER></td>
                 </DIV>
             </table>
         </CENTER></div>
-     <div class="scroll">
-         <p>Settings will arrive soon..</p>
-</body>
-</html>
+    <div class="scroll">
+        <p>Settings will arrive soon..</p>
+        </body>
+        </html>

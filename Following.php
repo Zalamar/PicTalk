@@ -38,22 +38,5 @@ $username = $_SESSION['username'];
                         <td><CENTER><button><a href="Settings.php">SETTINGS</a></button></button></CENTER></td>
                     </div>
                 </table>
-        </div>
-        <br>
-        <h1 style="text-align:center;">WELCOME</h1>
-        <table>
-            <div class="post">
-                <form action="succes.php">
-                    <br><br>
-                    <input type="file" name="pic" id="pic">
-                    <br><br>Description:<br>
-                    <textarea name="description" cols="40" rows="5"></textarea>
-                    <br><br>
-                    <input type="submit" value="submit">
-                </form> 
-            </div>
-            <br>
-            <br>
-            </body>
-            </html>
+ 
 
