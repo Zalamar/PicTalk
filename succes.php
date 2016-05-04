@@ -1,7 +1,6 @@
 <?PHP
 include 'Database.php';
 session_start();
-
 function login($username, $password) {
     $hash_password = md5($password);
     $data = mysql_query("SELECT * FROM users WHERE username = '$username' && password = '$hash_password'");
@@ -11,6 +10,7 @@ function login($username, $password) {
             $_SESSION['userid'] = $row['userid'];
             $_SESSION['username'] = $row['username'];
             $_SESSION['name'] = $row['name'];
+            $_SESSION['login'] = 'true';
             redirect("front.php");
         }
         else {
@@ -21,30 +21,15 @@ function login($username, $password) {
         redirect("index.php?err");
     }
 }
-
-function signup($name, $email, $password, $telephone) {
-    $sql = "INSERT INTO profile (name, email, password, telephone) VALUES ('name', 'email', 'password', 'telephone')";
-    $result = mysql_query($sql);
-    
-    if ($result) {
-        
-    }
-}
-
-function upload($pic, $description, $owner) {
-    
-}
-
 function redirect($location) {
     header("Location: http://localhost/Pictalk/$location");
     die();
 }
-
 if($_POST["action"] == "sign in") {
     login($_POST["username"], $_POST["password"]);
 }
 elseif($_POST["action"] == "sign up") {
-    redirect("signup");
+    redirect("register.php");
 }
 else {
     redirect("index.php");

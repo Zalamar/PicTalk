@@ -8,17 +8,22 @@ if (isset($_SESSION['login'])) {
 ?>
 
 <!DOCTYPE html>
-
 <html>
     <head>  
-        <title>Sign-In</title>
+        <title>Sign-Up</title>
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
         <h1>PicTalk</h1>
         <div class="login"> <fieldset style='width:30%'>
-                <legend>LOG-IN HERE</legend> 
-                <form method='POST' action='succes.php'>
+                <legend>REGISTRATION FORM</legend> 
+                <form method='POST' action='registration.php'>
+                    <div>
+                        <label>Name</label>
+                        <div>
+                            <input type="text" name="name" placeholder="name">
+                        </div>
+                    </div>
                     <div>
                         <label>Username</label>
                         <div>
@@ -32,7 +37,6 @@ if (isset($_SESSION['login'])) {
                         </div>
                     </div>
                     <div>
-                        <button type="submit" name="action" value="sign in">Sign in</button>
                         <button type="submit" name="action" value="sign up">Sign up</button>
                     </div>
                     <div>
